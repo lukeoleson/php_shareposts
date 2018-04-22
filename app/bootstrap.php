@@ -2,6 +2,11 @@
     // load config
     require_once 'config/config.php';
 
+    // load helpers
+    require_once 'helpers/url_helper.php';
+    require_once 'helpers/session_helper.php';
+
+
     // autoload core libraries
     // automatically loads all the files in the libraries folder
     // somehow
